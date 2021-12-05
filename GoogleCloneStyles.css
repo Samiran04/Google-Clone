@@ -31,8 +31,13 @@ html {
 .search_div {
   display: flex;
   flex-direction: row;
-  width: 43%;
+  width: 100%;
   height: 25%;
+}
+
+.search_div:hover {
+  /*border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;*/
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 /*Logo*/
@@ -47,12 +52,21 @@ html {
 
 .google_logo {
   width: 99%;
+  cursor: pointer;
 }
 
 /*Search Bar*/
 
+.search_util {
+  height: 100%;
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .search_bar_form {
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin: 0%;
 }
@@ -76,11 +90,6 @@ html {
   outline: none;
 }
 
-.search_div:hover {
-  /*border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;*/
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.2);
-}
-
 /*Search Icon*/
 .search_icon_div {
   width: 7%;
@@ -94,4 +103,48 @@ html {
   position: relative;
   left: 30%;
   top: 18%;
+}
+
+/*Voice search*/
+
+.search_by_voice_div {
+  width: 7%;
+  height: 105%;
+  border: 1px solid #dfe1e5;
+  border-radius: 0% 50% 50% 0%;
+  border-left: none;
+}
+
+.voice_search {
+  width: 65%;
+  position: relative;
+  top: 18%;
+  left: 5%;
+  cursor: pointer;
+}
+
+/*Buttons*/
+
+.buttons_div {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 19%;
+}
+
+.buttons {
+  text-align: center;
+  line-height: 250%;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  color: #3c4043;
+  height: 40%;
+  width: 38%;
+  background-color: #f8f9fa;
+  margin: 3%;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-radius: 7%;
+  cursor: pointer;
 }
