@@ -145,6 +145,10 @@ html {
   background-color: #f8f9fa;
   margin: 3%;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-radius: 7%;
+  border-radius: 5%;
   cursor: pointer;
+}
+
+.buttons:hover {
+  box-shadow: 1px 1px 5px grey;
 }
