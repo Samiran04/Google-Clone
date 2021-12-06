@@ -14,6 +14,19 @@ html {
   flex-direction: column;
 }
 
+.nav_tags_div {
+  height: 90%;
+  width: 15%;
+  margin: 1% 1% 0% 0%;
+}
+
+.lane_0 {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  justify-content: end;
+}
+
 .lane_1 {
   width: 100%;
   height: 20%;
@@ -55,6 +68,74 @@ html {
   cursor: pointer;
 }
 
+/*Navbar*/
+
+.nav_tags_div div {
+  display: inline-block;
+}
+
+.nav_tag1 {
+  position: relative;
+  bottom: 16%;
+  margin-right: 3%;
+}
+
+.nav_tag2 {
+  height: 70%;
+  width: 19%;
+  border-radius: 50%;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
+.nav_tag2:hover {
+  background-color: rgb(238, 232, 232);
+}
+
+.circle_tag {
+  height: 85%;
+  width: 85%;
+  border-radius: 50%;
+  position: relative;
+  left: 9%;
+  top: 7%;
+}
+
+.apps_icon {
+  width: 47%;
+  position: relative;
+  bottom: -25%;
+  left: 25%;
+}
+
+#apps {
+  position: relative;
+  bottom: 23%;
+}
+
+#name_tag {
+  background-color: #ab47bc;
+}
+
+.name {
+  position: absolute;
+  top: -36%;
+  left: 30%;
+  color: white;
+  font-size: 110%;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+.nav_tag1 a {
+  font-size: 80%;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.nav_tag1 :hover {
+  text-decoration: underline;
+}
 /*Search Bar*/
 
 .search_util {
