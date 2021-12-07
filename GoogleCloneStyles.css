@@ -41,6 +41,23 @@ html {
   justify-content: center;
 }
 
+.lane_3 {
+  width: 100%;
+  height: 24%;
+  display: flex;
+  justify-content: center;
+  color: #202124;
+}
+
+.lane_4 {
+  width: 100%;
+  height: 14%;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  color: #70757a;
+}
+
 .search_div {
   display: flex;
   flex-direction: row;
@@ -130,7 +147,7 @@ html {
   font-size: 80%;
   font-family: arial, sans-serif;
   text-decoration: none;
-  color: black;
+  color: #202124;
 }
 
 .nav_tag1 :hover {
@@ -232,4 +249,69 @@ html {
 
 .buttons:hover {
   box-shadow: 1px 1px 5px grey;
+}
+
+/*Languages*/
+
+.languages {
+  width: 42%;
+  height: 60%;
+  font-size: 83%;
+  font-family: arial, sans-serif;
+}
+
+.languages a {
+  margin-left: 1%;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.languages a:hover {
+  text-decoration: underline;
+}
+
+/*footer*/
+
+.country {
+  width: 80%;
+  height: 15%;
+  padding: 15px 30px;
+}
+
+.details {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid #dadce0;
+  font-size: 14px;
+}
+
+.privacy {
+  height: 100%;
+}
+
+.business {
+  height: 100%;
+}
+
+.details a {
+  text-decoration: none;
+  color: #70757a;
+  padding-left: 20px;
+  position: relative;
+  top: 35%;
+}
+
+.details a:hover {
+  text-decoration: underline;
+}
+
+.corner-left {
+  padding-left: 40px !important;
+}
+
+.corner-right {
+  padding-right: 35px !important;
 }
